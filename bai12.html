@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai12 ne thang lone</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: green;">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <form action="#">
+        <table width="500" height="350" border="1" align="center" style="border-color: green; background-color: rgba(134, 243, 124, 0.966); color:red;">
+            <tr>
+                <td> Họ và tên</td>
+                <td><input name="textfield" type="text" id="textfield" size="40"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input name="textfield" type="text" id="textfield" size="40"> </td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input name="textfield" type="text" id="textfield" size="15"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td><input type="radio" name="radio" id="radio" value="radio" checked="checked" >Nam 
+                    <input type="radio" name="radio" id="radio2" value="radio2" checked="checked">Nữ </td>
+            </tr>
+            <tr>
+                <td><label for="nghe_nghiep"> Nghề nghiệp</label></td>
+                <td>
+                    <select name="nghe nghiep" id="nghe_nghiep" style="width:150px">
+                     <option value="Giáo viên">Giáo Viên</option>
+                     <option value="Bác sĩ">Bác sĩ</option>
+                     <option value="Sinh viên">Sinh viên</option>
+                     <option value="Khác">Khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="san_pham"> Sản phẩm</label></td>
+                <td>
+                    <select name="san pham" id="san_pham" style="width:150px" size="4">
+                     <option value="Kem đánh răng" selected>Kem đánh răng</option>
+                     <option value="Bột giặt">Bột giặt</option>
+                     <option value="Dầu gội đầu" >Dầu gội đầu</option>
+                     <option value="Khác">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia </td>
+                <td><input name="textfield" type="text" id="textfield" size="15"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Xác nhận" onclick="alert('Xác nhận đăng ký tham gia thành công')"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
